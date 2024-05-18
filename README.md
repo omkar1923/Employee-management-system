@@ -28,42 +28,52 @@ mvn clean install
 mvn spring-boot:run
 3. **Access the application at http://localhost:8080**
 
- ###  API Endpoints
-## Employee CRUD Operations
-Create Employee:
-`POST /employee/save`
-POST /employee/saveAll
-Read Employee:
-GET /employee/findById
-GET /employee/find/phone
-GET /employee/find/email
-GET /employee/findAll
-GET /employee/find/name
-GET /employee/find/address
-GET /employee/find/designation
-GET /employee/login
-Delete Employee:
-DELETE /employee/deleteById
-DELETE /employee/delete/email
-DELETE /employee/delete/phone
-DELETE /employee/delete/name
-DELETE /employee/delete/designation
-DELETE /employee/delete/address
-DELETE /employee/delete/all
-Update Employee:
-PUT /employee/update
-PATCH /employee/update/phone
-PATCH /employee/update/name
-PATCH /employee/update/email
-PATCH /employee/update/designation
-PATCH /employee/update/salary
-PATCH /employee/update/passwordByID
-PATCH /employee/update/passwordByEmail
-PATCH /employee/update/passwordByPhone
-Advanced Search by Salary
-GET /employee/find/salary/lessthan
-GET /employee/find/salary/greaterthan
-GET /employee/find/salary/between
-API Testing
-Import Postman collection: Download
-Run tests to verify all API endpoints.
+
+
+# Employee CRUD Operations API Endpoints
+
+## Create Employee
+- POST /employee/save
+- POST /employee/saveAll
+
+## Read Employee
+- GET /employee/findById
+- GET /employee/find/phone
+- GET /employee/find/email
+- GET /employee/findAll
+- GET /employee/find/name
+- GET /employee/find/address
+- GET /employee/find/designation
+- GET /employee/login
+
+## Delete Employee
+- DELETE /employee/deleteById
+- DELETE /employee/delete/email
+- DELETE /employee/delete/phone
+- DELETE /employee/delete/name
+- DELETE /employee/delete/designation
+- DELETE /employee/delete/address
+- DELETE /employee/delete/all
+
+## Update Employee
+- PUT /employee/update
+- PATCH /employee/update/phone
+- PATCH /employee/update/name
+- PATCH /employee/update/email
+- PATCH /employee/update/designation
+- PATCH /employee/update/salary
+- PATCH /employee/update/passwordByID
+- PATCH /employee/update/passwordByEmail
+- PATCH /employee/update/passwordByPhone
+
+## Advanced Search by Salary
+- GET /employee/find/salary/lessthan
+- GET /employee/find/salary/greaterthan
+- GET /employee/find/salary/between
+
+## API Testing
+- Import Postman collection: Download
+- Run tests to verify all API endpoints.
+
+## Contributing
+- Contributions are welcome! Fork the repository and submit a pull request.
