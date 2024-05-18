@@ -27,10 +27,11 @@ A backend application for managing employee records, developed using Spring Boot
 mvn clean install
 mvn spring-boot:run
 3. **Access the application at http://localhost:8080**
-   API Endpoints
-Employee CRUD Operations
+
+ ###  API Endpoints
+## Employee CRUD Operations
 Create Employee:
-POST /employee/save
+`POST /employee/save`
 POST /employee/saveAll
 Read Employee:
 GET /employee/findById
